@@ -1,0 +1,8 @@
+@import "../../Assets/mixins.scss";
+@import "../../Assets/vars.scss";
+
+.product_list_item_wrapper{
+    @include flex;
+    overflow-y: auto;
+    margin-bottom: 3rem;
+}
